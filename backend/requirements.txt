@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+langchain
+langchain-community
+faiss-cpu
+unstructured[local-inference]   # for pptx, unstructured loaders
+pypdf
+python-pptx
+docx2txt
+ollama                           # python client for ollama (if available)
